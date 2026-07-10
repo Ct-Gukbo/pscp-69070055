@@ -3,24 +3,24 @@ def main():
     """Season"""
     month = int(input())
     day = int(input())
-    if (month in (1,2,3)):
-        if day >= 21 and month == 3:
+    if month in (1, 2, 3):
+        if month == 3 and day >= 21:
             print("spring")
-        elif day <= 22 and month in (1,2,3):
+        else:
             print("winter")
-    elif (month in (4,5,6)):
+    elif month in (4, 5, 6):
         if day >= 21 and month == 6:
             print("summer")
-        elif day <= 22 and month in (4,5,6):
+        else:
             print("spring")
-    elif (month in (7,8,9)):
+    elif month in (7, 8, 9):
         if day >= 21 and month == 9:
             print("fall")
-        elif day <= 22 and month in (7,8,9):
+        else:
             print("summer")
-    elif (month in (10,11,12)):
+    elif month in (10, 11, 12):
         if day >= 21 and month == 12:
             print("winter")
-        elif day <= 22 and month in (10,11,12):
+        else:
             print("fall")
 main()
