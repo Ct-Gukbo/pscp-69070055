@@ -1,16 +1,14 @@
 """ค่าน้อยที่สุด (4 ค่า)"""
 def main():
     """ค่าน้อยที่สุด (4 ค่า)"""
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    d = int(input())
-    if a < b and a < c and a < d:
-        print(a)
-    elif b < a and b < c and b < d:
-        print(b)
-    elif c < a and c < b and c < d:
-        print(c)
-    elif d < a and d < b and d < c:
-        print(d)
+    INPUT = int(input())
+
+    smallest = int(input())
+
+    for _ in range(INPUT - 1):
+        num = int(input())
+        if num < smallest:
+            smallest = num
+
+    print(smallest)
 main()
