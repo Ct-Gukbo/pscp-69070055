@@ -1,14 +1,17 @@
 def main():
-    num = int(input())
-    t = num - 1
-    m = 1
-    while True:
-        if m * m >= t:
-            print(2 * m - 2)
-            return
-        if m * (m + 1) >= t:
-            print(2 * m - 1)
-            return
-        m += 1
-
+    money = int(input())
+    water = 7
+    bwater = 15
+    packwater = water*12 = 65
+    packbwater = bwater*6 = 69
+    final = 0
+    if packbwater >= money:
+        packbwater - money = final
+    elif packwater >= money:
+        packwater - money = final
+    elif bwater >= money:
+        bwater - money = final
+    else:
+        water - money = final
+    print(answer)
 main()
