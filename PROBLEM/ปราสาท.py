@@ -15,7 +15,7 @@ def main():
         if not num % 2 :
             print(ans)
         else:
-            print(ans-1)
+            print(ans-2)
     elif num == 1:
         print("1")
     else:
