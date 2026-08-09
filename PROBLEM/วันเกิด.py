@@ -1,8 +1,5 @@
 """วันเกิด"""
-<<<<<<< HEAD
 from datetime import date
-=======
->>>>>>> bd55176f05b414d9969f47684452f3a8f55beede
 def main():
     """วันเกิด"""
     y1 = int(input())
@@ -26,7 +23,6 @@ def main():
     else:
         print(2)
 
-=======
     y2 = int(input())
     m2 = int(input())
     d2 = int(input())
@@ -38,5 +34,4 @@ def main():
         print("1")
     else:
         print("2")
->>>>>>> bd55176f05b414d9969f47684452f3a8f55beede
 main()
