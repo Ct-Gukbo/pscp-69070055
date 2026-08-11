@@ -15,13 +15,10 @@ def main():
         if not num % 2 :
             print(ans)
         else:
-            print(ans-2)
-    elif num == 1:
-        print("1")
+            print(ans-1)
     else:
         if not num % 2 :
-            print(ans+1)
+            print(ans-1)
         else:
             print(ans)
 main()
-# 53 MINUTES AND GOING ON
