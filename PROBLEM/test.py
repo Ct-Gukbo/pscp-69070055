@@ -1,17 +1,18 @@
+"""coke"""
 def main():
-    money = int(input())
-    water = 7
-    bwater = 15
-    packwater = water*12 = 65
-    packbwater = bwater*6 = 69
-    final = 0
-    if packbwater >= money:
-        packbwater - money = final
-    elif packwater >= money:
-        packwater - money = final
-    elif bwater >= money:
-        bwater - money = final
-    else:
-        water - money = final
-    print(answer)
+    """coke"""
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    sumcap = 0
+    sumcost = 0
+    for _ in range(d):
+        if 0 < b < sumcap:
+            sumcost += c
+            sumcap -= b
+        else:
+            sumcost += a
+        sumcap += 1
+    print(sumcost)
 main()

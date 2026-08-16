@@ -1,17 +1,21 @@
-"""coke"""
+"""a"""
 def main():
-    """coke"""
+    """a"""
     a = int(input())
     b = int(input())
     c = int(input())
     d = int(input())
-    if not b:
-        print(a * d)
-    elif not d :
-        print(0)
-    else:
-        n_pro = (d-1) // b
-        n_base = d - n_pro
-        price = (n_pro * c) + (n_base * a)
-        print(price)
+
+    CAPS = 0
+    SUMC = 0
+
+    for _ in range(d):
+        if 0 < b <= CAPS:
+            SUMC += c
+            CAPS -= b
+        else:
+            SUMC += a
+        CAPS += 1
+
+    print(SUMC)
 main()

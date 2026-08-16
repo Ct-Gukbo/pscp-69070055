@@ -2,7 +2,10 @@
 def main():
     """taxi"""
     kilo = int(input())
-    money = 35
+    if not kilo:
+        money = 0
+    else:
+        money = 35
     for _ in range(kilo):
         if kilo == 1:
             money += 0
@@ -10,5 +13,6 @@ def main():
             money += 5
         elif kilo > 10:
             money += 8
+        kilo -= 1
     print(money)
 main()
