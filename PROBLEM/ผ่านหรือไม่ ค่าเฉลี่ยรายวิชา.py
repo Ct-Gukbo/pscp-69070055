@@ -2,7 +2,6 @@
 def main():
     """ผ่านหรือไม่ ค่าเฉลี่ยรายวิชา"""
     Count = int(input())
-    Sum = 0
     score = []
     for _ in range(Count):
         Num = int(input())
